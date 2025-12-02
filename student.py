@@ -10,7 +10,7 @@ def student_details(name, id, course, year):
 if _name_ == "_main_":
     #Sample Output
     name = "mani"
-    id = 035
+    id = "035"
     quantity = 10
     price = 48000
     print(product_details(name, id, course, year))
