@@ -1,18 +1,16 @@
 
-
-def student_details(name, id, course, year):
+def product_details(name, id, quantity, price):
     result = (
-        f"student Name: {name}\n"
-        f"student ID: {id}\n"
-        f"course: {course}\n"
-        f"year: {year}"
+        f"Product Name: {name}\n"
+        f"Product ID: {id}\n"
+        f"Quantity: {quantity}\n"
+        f"Price: {price}"
     )
     return result
-
-if __name__ == "__main__":
-    # Sample Output
-    name = "mani"
-    id = "035"
-    course = "bca"
-    year = 2025
-    print(student_details(name, id, course, year))
+if _name_ == "_main_":
+    #Sample Output
+    name = "Lenovo Laptop"
+    id = "P1001"
+    quantity = 10
+    price = 48000
+    print(product_details(name, id, quantity, price))
