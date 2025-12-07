@@ -1,10 +1,9 @@
-from student import student_details
-
-def test_student_details():
+from product import product_details
+def test_product_details():
     expected_output = (
-        "student Name: mani\n"
-        "student ID: 35\n"
-        "course: bca\n"
-        "year: 2025"
+        "Product Name: Lenovo Laptop\n"
+        "Product ID: P1001\n"
+        "Quantity: 10\n"
+        "Price: 48000"
     )
-    assert student_details("mani", 35, "bca", 2025) == expected_output
+    assert product_details("Lenovo Laptop", "P1001", 10, 48000) == expected_output
